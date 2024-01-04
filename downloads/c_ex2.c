@@ -9,6 +9,6 @@ int main()
     A=8;
     b=2;
   c=A-a+b;
-  printf("%d",c)
+  printf("%d",c);
     return 0;
 }
