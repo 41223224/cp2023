@@ -1,5 +1,13 @@
 <h1>About</h1>
 <p><a href="https://github.com/mdecycu/cmsite"> https://github.com/mdecycu/cmsite</a></p>
+<h1>C_ex</h1>
+<p>第一題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+void main()
+{
+  printf("Hello World!");
+}</pre>
+<img alt="" height="39" src="/images/螢幕擷取畫面 2024-01-04 195700.png" width="217"/>
 <h1>w15</h1>
 <p>第一題:<span>根據</span><span>程式內容所印出的六組 ABED 等繪製 ROC 國旗白日圖案中的菱形四個關鍵點, 請直接在青天與滿地紅的圖案中, 利用白色作為畫線顏色, 將第二組的 ABED 等四個點的座標, 以直線相連</span></p>
 <p><span>先找出座標:</span></p>
@@ -178,7 +186,8 @@ void draw_white_sun(gdImagePtr img, int center_x, int center_y, int sun_radius, 
 <p>Answer:</p>
 <p>AB 直線與大圓相交的點座標: (279, 125)<br/>BE 直線與大圓相交的點座標: (279, 275)<br/>ED 直線與大圓相交的點座標: (320, 275)<br/>DA 直線與大圓相交的點座標: (320, 125)<br/><br/></p>
 <p>操作過程:<video controls="controls" height="500" width="800">
-<source src="/images/test.mp4" type="video/mp4"/></video></p><h1>w14</h1>
+<source src="/images/test.mp4" type="video/mp4"/></video></p>
+<h1>w14</h1>
 <h2>線上繪圖</h2>
 <p><a href="https://mde.tw/cpnote/content/%E7%B7%9A%E4%B8%8A%E7%B9%AA%E5%9C%96.html?src=https://gist.githubusercontent.com/41223224/0edf24245a56b4aedd8d2db52d114680/raw/16b7b4a644bd22e1179da137741f5a04cf5902a1/w14_1_helloworld.py">列印 10 次 Hello World</a></p>
 <h1>w12 - w13</h1>
@@ -455,7 +464,8 @@ void draw_uk_flag(gdImagePtr img) {
     gdImageFilledRectangle(img, center_x + 1.5 * cross_width, 0, center_x - 1.5 * cross_width, height, red);
     gdImageFilledRectangle(img, 0, center_y + 1.5 * cross_arm_width, width, center_y - 1.5 * cross_arm_width, red);
 }</pre>
-<p><img alt="" height="200" src="/images/uk_flag.png" width="400"/></p><h1>w10 - w11</h1>
+<p><img alt="" height="200" src="/images/uk_flag.png" width="400"/></p>
+<h1>w10 - w11</h1>
 <pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
 #include &lt;gd.h&gt;
 #include &lt;math.h&gt;
@@ -521,7 +531,8 @@ return 0;
 <p>cd downloads</p>
 <p>cc hello.c -lgd -lm</p>
 <p>./a.out</p>
-<p><img alt="" height="300" src="/images/hellogd.png" width="400"/></p><h1>w7</h1>
+<p><img alt="" height="300" src="/images/hellogd.png" width="400"/></p>
+<h1>w7</h1>
 <p>// https://en.wikipedia.org/wiki/Flag_of_the_Republic_of_China<br/>// 內政部國旗參考資料: https://www.moi.gov.tw/cp.aspx?n=10621<br/>// cc roc_flag_in_gd.c -lgd -lm to link with gd and math library<br/>// https://www.rapidtables.com/web/color/RGB_Color.html<br/>// 幾何形狀著色與繪圖練習<br/>// 以下 gd 繪圖程式嘗試畫出 ROC 國旗, 請根據下列程式內容完成後續的國旗繪圖</p>
 <pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
 #include &lt;gd.h&gt;
@@ -643,7 +654,8 @@ gdImagePolygon(img, points, 4, color);
 <p>cd downloads</p>
 <p>cc roc _flag_in_gd.c -lgd -lm</p>
 <p>./a.out</p>
-<p><img caption="false" height="200" src="/images/roc_flag_in_gd.png" width="300"/></p><h1>w6</h1>
+<p><img caption="false" height="200" src="/images/roc_flag_in_gd.png" width="300"/></p>
+<h1>w6</h1>
 <p>// https://en.wikipedia.org/wiki/Flag_of_the_Republic_of_China<br/>// cc roc_flag.c -lgd -lm to link with gd and math library<br/>// https://www.rapidtables.com/web/color/RGB_Color.html<br/>// 幾何形狀著色與繪圖練習<br/>// 以下 gd 繪圖程式嘗試畫出 ROC 國旗, 請根據下列程式內容完成後續的國旗繪圖</p>
 <pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
 #include &lt;gd.h&gt;
@@ -799,7 +811,8 @@ gdImageFilledPolygon(img, points, 10, color);
 <p>cd downloads</p>
 <p>cc gd_usa_flag.c -lgd -lm</p>
 <p>./a.out</p>
-<p><img alt="" height="300" src="/images/usa_flag.png" width="570"/></p><h1>w5</h1>
+<p><img alt="" height="300" src="/images/usa_flag.png" width="570"/></p>
+<h1>w5</h1>
 <div class="line number1 index0 alt2"><code class="cpp comments">// 包含標準輸出入程式庫的標頭文件</code></div>
 <div class="line number2 index1 alt1"><code class="cpp comments">// https://blog.csdn.net/weixin_38468077/article/details/101069365</code></div>
 <div class="line number3 index2 alt2"><code class="cpp comments">// http://www.gnuplot.info/demo/</code></div>
