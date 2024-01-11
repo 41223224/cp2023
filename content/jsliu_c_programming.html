@@ -2,7 +2,7 @@
         <head>
         <title>cmsite</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,9 +142,147 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='C_ex.html'>Next</a> >> C_ex<br /><h1>About</h1>
-<p><a href="https://github.com/mdecycu/cmsite"> https://github.com/mdecycu/cmsite</a></p>
-<br /> <a href='C_ex.html'>Next</a> >> C_ex</div>
+    <div id="tipue_search_content">C_ex << <a href='C_ex.html'>Previous</a> <a href='introduce to c.html'>Next</a> >> introduce to c<br /><h1>jsliu_c_programming</h1>
+<p>第一題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+void main()
+{
+  printf("Hello World!");
+}</pre>
+<p><img alt="" height="39" src="./../images/螢幕擷取畫面 2024-01-04 195700.png" width="217"/></p>
+<p>第二題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int main()
+{
+  //變數宣告
+  int a;
+  int A;
+  int b,c;
+  a=1;
+    A=8;
+    b=2;
+  c=A-a+b;
+  printf("%d",c);
+    return 0;
+}</pre>
+<p><img alt="" height="57" src="./../images/2.png" width="315"/></p>
+<p>第三題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+void main()
+{
+  float a=0.5;
+  double b=1.2;
+  int c=3;
+  b=b+a+c;
+  //輸出a,b,c到螢幕
+  printf("a=%3.1f,b=%3.1f,c=%d",a,b,c);
+}</pre>
+<p><img alt="" height="72" src="./../images/3.png" width="370"/></p>
+<p>第四題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int main()
+{
+  char x,y;
+  x='a';
+  y=(char)97;
+  printf("x=%c,y=%c,ASCII of y=%d",x,y,y);
+  return 0;
+}</pre>
+<p><img alt="" height="61" src="./../images/4.png" width="300"/></p>
+<p>第五題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int main()
+{
+  int a,b;
+  float c;
+  a=b=5+1;
+  c=(float)a+0.1;
+  printf("%.1f",c);
+}</pre>
+<p><img alt="" height="53" src="./../images/5.png" width="300"/></p>
+<p>第六題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
+int main()
+{
+  int a,b;
+  a=10;b=3;
+  printf("%d\n",a*b);
+  printf("%d\n",a/b);
+  printf("%d\n",a-b);
+  printf("%d\n",a%b);
+  return 0;
+}</pre>
+<p><img alt="" height="138" src="./../images/6.png" width="300"/></p>
+<p>第七題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
+int main()
+{
+  int a=10,b=5;
+  printf("a==b is %d\n",a==b);
+  printf("a&gt;b is %d\n",a&gt;b);
+  printf("a&lt;b is %d\n", a&lt;b);
+  printf("a&gt;=b is %d\n",a&gt;=b);
+  printf("a&lt;=b is %d\n",a&lt;=b);
+  printf("a!=b is %d\n",a!=b);
+  printf("\n");
+  b=10;
+  printf("a==b is %d\n",a==b);
+  printf("a&gt;b is %d\n",a&gt;b);
+  printf("a&lt;b is %d\n", a&lt;b);
+  printf("a&gt;=b is %d\n",a&gt;=b);
+  printf("a&lt;=b is %d\n",a&lt;=b);
+  printf("a!=b is %d\n",a!=b);
+  return 0;
+}</pre>
+<p><img alt="" height="303" src="./../images/7.png" width="282"/></p>
+<p>第八題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int rect(int x,int y)
+{
+  int result;
+  result=x*y;
+  return result;
+}
+void main()
+{
+  int x=8,y=4;
+  int a;
+  a=rect(x,y);
+  printf("8*4的面積是%d",a);
+}</pre>
+<p><img alt="" height="97" src="./../images/8.png" width="355"/><br/><br/></p>
+<p>第九題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+float circle(int r);
+void main()
+{
+  float answer;
+  answer=circle(8);
+  printf("圓周長度是%f",answer);
+}
+float circle(int r)
+{
+  float result;
+  result=3.14159*2*r;
+  return (result);
+}</pre>
+<p><img alt="" height="70" src="./../images/9.png" width="407"/></p>
+<p>第十題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+int main()
+{
+  char ch;
+  printf("input a char:");
+  scanf("%c", &amp;ch);
+  if (ch == 'a')
+  {
+    printf("You pressed 'a'");
+  }
+}</pre>
+<p><img alt="" height="37" src="./../images/10.png" width="145"/></p>
+<p>因replit無法使用conio.h標頭檔所以使用別的程式執行</p>
+<br />C_ex << <a href='C_ex.html'>Previous</a> <a href='introduce to c.html'>Next</a> >> introduce to c</div>
         
     <!-- footer -->
       <div class="container">
