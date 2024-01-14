@@ -1,6 +1,16 @@
 <h1>About</h1>
 <p><a href="https://github.com/mdecycu/cmsite"> https://github.com/mdecycu/cmsite</a></p>
+<h1>期末總結</h1>
+<p><span>A: 是否</span><span>按照進度明確標示倉儲的改版歷程</span></p>
+<p><span></span><span>B: 是否根據 IPv4 與 IPv6 網路環境設定進行作法討論</span></p>
+<p><span></span><span>C: 是否就<span><span> </span>Replit、s.cycu.org 與 localhost</span><span> </span>情境下對個人與分組倉儲進行設定操作</span></p>
+<p><span></span><span>D: 是否完成<a href="https://mde.tw/cpnote/content/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9.html">上課內容</a>中的 Exercises</span></p>
+<p><span></span><span>E: 是否完成<span> </span><a href="https://mde.tw/cpnote/content/w2-w5.html">w2-w5</a><span> </span>週任務中的 Exercises</span></p>
+<p><span></span><span>F: 是否完成<span> </span><a href="https://mde.tw/cpnote/content/w6-w7.html">w6-w7</a><span> </span>週任務中的練習一與練習二<br/></span></p>
+<p><span></span><span>G: 是否完成 C 結合 gd 繪圖程式庫, 畫出<span> </span><a href="https://en.wikipedia.org/wiki/Flag_of_China">PROC</a>(<a href="https://en.wikipedia.org/wiki/Flag_of_China#/media/File:Flag_of_China_(construction_sheet).svg">規格</a>),<span> </span><a href="https://en.wikipedia.org/wiki/Flag_of_the_United_Kingdom">United Kingdom</a>(<a href="https://en.wikipedia.org/wiki/Flag_of_the_United_Kingdom#/media/File:Flag_of_the_United_Kingdom_(1-2)_(construction_sheet).svg">規格</a>),<span> </span><a href="https://en.wikipedia.org/wiki/Flag_of_Japan">Japan</a>(<a href="https://en.wikipedia.org/wiki/Flag_of_Japan#/media/File:Construction_sheet_of_the_Japanese_flag_EN.svg">規格</a>)與<span> </span><a href="https://en.wikipedia.org/wiki/Flag_of_South_Korea">South Korea</a>(<a href="https://en.wikipedia.org/wiki/Flag_of_South_Korea#/media/File:Flag_of_South_Korea_(construction_sheet).svg">規格</a>) Flags</span></p>
+<p><span></span><span>H: 是否完成 w16 Final Project</span></p>
 <h1>C_ex</h1>
+<h2>jsliu_c_programming</h2>
 <p>第一題:</p>
 <pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
 void main()
@@ -139,7 +149,89 @@ int main()
   }
 }</pre>
 <p><img alt="" height="37" src="/images/10.png" width="145"/></p>
-<p>因replit無法使用conio.h標頭檔所以使用別的程式執行</p><h1>w15</h1>
+<p>因replit無法使用conio.h標頭檔所以使用別的程式執行</p>
+<h2>introduce to c</h2>
+<p>第一題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
+int main () {
+char c;
+printf("Enter character: ");
+c = getchar(); 
+printf("Character entered: ");
+putchar(c); 
+return(0);
+}</pre>
+<p>第二題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int main()
+{
+    int this_is_a_number1,this_is_a_number2,total;
+    printf("Please enter an integer number:\n");
+        scanf("%d",&amp;this_is_a_number1);
+        printf("You entered %d\n",this_is_a_number1);
+        printf("Please enter another number:\n");
+        scanf("%d",&amp;this_is_a_number2);
+        printf("You entered %d\n",this_is_a_number2);
+        total=this_is_a_number1+this_is_a_number2;
+        printf("total is %d\n",total);
+        return 0;
+
+}
+</pre>
+<p><img alt="" height="187" src="/images/12.png" width="330"/></p>
+<p>第三題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int main()
+{
+    float this_is_a_number1,this_is_a_number2,total;
+    printf("Please enter an number:\n");
+        scanf("%f",&amp;this_is_a_number1);
+        printf("You entered %f\n",this_is_a_number1);
+        printf("Please enter another number:\n");
+        scanf("%f",&amp;this_is_a_number2);
+        printf("You entered %f\n",this_is_a_number2);
+        total=this_is_a_number1+this_is_a_number2;
+        printf("total is %f\n",total);
+        return 0;
+
+}
+</pre>
+<p><img alt="" height="183" src="/images/13.png" width="307"/></p>
+<p>第四題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int main()
+{
+    float this_is_a_number1,this_is_a_number2,total;
+    printf("Please enter an number:\n");
+        scanf("%f",&amp;this_is_a_number1);
+        printf("You entered %f\n",this_is_a_number1);
+        printf("Please enter another number:\n");
+        scanf("%f",&amp;this_is_a_number2);
+        printf("You entered %f\n",this_is_a_number2);
+        total=this_is_a_number1*this_is_a_number2;
+        printf("total is %f\n",total);
+        return 0;
+
+}
+</pre>
+<p><img alt="" height="188" src="/images/14.png" width="318"/></p>
+<p>第五題:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include&lt;stdio.h&gt;
+int main()
+{
+    float this_is_a_number,total;
+    int i;
+    total=0;
+    for(i=0;i&lt;10;i++)
+    {
+        printf("Please enter a number:\n");
+        scanf("%f",&amp;this_is_a_number);
+        total=total+this_is_a_number;
+    }
+printf("Total Sum is=%f\n",total);
+}</pre>
+<p></p>
+<h1>w15</h1>
 <p>第一題:<span>根據</span><span>程式內容所印出的六組 ABED 等繪製 ROC 國旗白日圖案中的菱形四個關鍵點, 請直接在青天與滿地紅的圖案中, 利用白色作為畫線顏色, 將第二組的 ABED 等四個點的座標, 以直線相連</span></p>
 <p><span>先找出座標:</span></p>
 <p>A coord: (375,70)<br/>B coord: (264,179)<br/>E coord: (224,329)<br/>D coord: (224,329)</p>
